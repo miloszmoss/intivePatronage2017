@@ -1,0 +1,43 @@
+* { 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body { 
+   background: rgb(221, 212, 212);
+   font-family: 'Gill Sans', sans-serif;
+}
+.main { 
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.myBox { 
+   width: 100px;
+   height: 100px;
+   cursor: pointer;
+   background: linear-gradient(#c7c7c7, #7c7c7c);
+   border: 1px solid rgba(138, 138, 138, 0.705);
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   color: rgb(78, 78, 78);
+   font-size: 20px;
+}
+
+.clickCount { 
+   color: rgb(133, 66, 66);
+   margin-top: 10px;
+   font-size: 40px;
+   transition: color .3s ease;
+   cursor: default;
+}
+
+.clickCount:hover { 
+   color:  #d81515;
+}
